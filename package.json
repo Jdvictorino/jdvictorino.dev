@@ -1,12 +1,14 @@
 {
-  "name": "jdvictorino.dev",
-  "module": "index.ts",
+  "name": "d-desarrollo-de-software-proyectos-proyectos-javascript-jdvictorino-dev",
   "type": "module",
-  "private": true,
-  "devDependencies": {
-    "@types/bun": "latest"
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "peerDependencies": {
-    "typescript": "^5"
+  "dependencies": {
+    "astro": "^5.17.1"
   }
 }
